@@ -24,7 +24,10 @@ class App extends Component {
           <Mili grammes={this.state.grammes} />
         </div>
         <footer>
-          <a href="https://github.com/ilyandho/day1-react-weight-converter/">
+          <a
+            href="https://github.com/ilyandho/day1-react-weight-converter/"
+            target="blank"
+          >
             Source code
           </a>
         </footer>
