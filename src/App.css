@@ -10,7 +10,7 @@
 .main {
   background: rgb(228, 225, 225);
   width: 80%;
-  height: calc(100vh - 65px);
+  height: calc(100vh - 95px);
   margin: auto;
   text-align: center;
 }
@@ -19,4 +19,14 @@ hr {
   width: 70%;
   height: 1px;
   margin: auto;
+}
+
+footer {
+  height: 30px;
+  text-align: center;
+  background: rgb(5, 48, 23);
+}
+
+footer a {
+  color: #fff;
 }

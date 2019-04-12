@@ -23,6 +23,11 @@ class App extends Component {
           <Kilo grammes={this.state.grammes} />
           <Mili grammes={this.state.grammes} />
         </div>
+        <footer>
+          <a href="https://github.com/ilyandho/day1-react-weight-converter/">
+            Source code
+          </a>
+        </footer>
       </div>
     );
   }
