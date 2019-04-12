@@ -1,0 +1,16 @@
+.kilo {
+  width: 70%;
+  height: 100px;
+  margin: auto;
+  padding-top: 10px;
+  background: red;
+}
+
+.kilo .name {
+  float: left;
+  padding-left: 50px;
+}
+
+.kilo .name {
+  float: left;
+}

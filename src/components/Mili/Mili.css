@@ -1,0 +1,16 @@
+.mili {
+  width: 70%;
+  height: 100px;
+  margin: auto;
+  padding-top: 10px;
+  background: blue;
+}
+
+.mili .name {
+  float: left;
+  padding-left: 50px;
+}
+
+.mili .name {
+  float: left;
+}

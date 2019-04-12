@@ -1,0 +1,22 @@
+input {
+  background: #ccc;
+  margin: 15px;
+  padding: 5px;
+  height: 35px;
+  width: 50%;
+  box-shadow: none;
+  border: none;
+  border-radius: 3px;
+  transition: 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: aqua;
+  background: rgb(231, 231, 231);
+  transition: 0.3s ease-in-out;
+}
+
+input:focus::placeholder {
+  color: #ccc;
+  padding-left: 5px;
+}
