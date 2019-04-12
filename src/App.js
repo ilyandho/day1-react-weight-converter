@@ -16,7 +16,7 @@ class App extends Component {
     };
     return (
       <div className="App">
-        <h2 class="header">My React Weight Converter</h2>
+        <h2 className="header">My React Weight Converter</h2>
         <div className="main">
           <InputForm grammes={grammes} />
           <hr />
