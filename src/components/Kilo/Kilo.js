@@ -6,7 +6,7 @@ class Kilo extends Component {
   render() {
     const grammes = this.props.grammes;
 
-    const kilo = grammes * 1000;
+    const kilo = grammes / 1000;
     return (
       <div className="kilo">
         <h2 className="name">Kilo Output:</h2>

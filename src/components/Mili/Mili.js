@@ -4,7 +4,7 @@ class Mili extends Component {
   render() {
     const grammes = this.props.grammes;
 
-    const mili = grammes / 1000;
+    const mili = grammes * 1000;
     return (
       <div className="mili">
         <h2 className="name">Mili Output: </h2>
